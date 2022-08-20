@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="288aafc8-8795-4954-aa6f-064cb5b3ac48" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DLglPpT64Qz3j1rXONMF8hdUrt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/vo" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itdaiheng.seckill.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\vo" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\utils" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\resources\static\img" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeckillApplication">
+    <configuration name="UserUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itdaiheng.seckill.utils.UserUtil" />
+      <module name="seckill-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itdaiheng.seckill.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seckill-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itdaiheng.seckill.SeckillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.UserUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="288aafc8-8795-4954-aa6f-064cb5b3ac48" name="Default Changelist" comment="" />
+      <created>1660483928888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660483928888</updated>
+      <workItem from="1660483932207" duration="783000" />
+      <workItem from="1660529134525" duration="292000" />
+      <workItem from="1660529683574" duration="376000" />
+      <workItem from="1660530624062" duration="3887000" />
+      <workItem from="1660550484109" duration="1807000" />
+      <workItem from="1660553909189" duration="961000" />
+      <workItem from="1660563005339" duration="2697000" />
+      <workItem from="1660626413673" duration="18914000" />
+      <workItem from="1660721884941" duration="3231000" />
+      <workItem from="1660801068136" duration="899000" />
+      <workItem from="1660812535790" duration="3990000" />
+      <workItem from="1660831832387" duration="1697000" />
+      <workItem from="1660897529268" duration="1488000" />
+      <workItem from="1660899593672" duration="797000" />
+      <workItem from="1660901528830" duration="2251000" />
+      <workItem from="1660911110105" duration="220000" />
+      <workItem from="1660911458452" duration="80000" />
+      <workItem from="1660970691355" duration="5734000" />
+      <workItem from="1660978065081" duration="491000" />
+      <workItem from="1660979055601" duration="91000" />
+      <workItem from="1660985988214" duration="1369000" />
+      <workItem from="1660994459102" duration="5530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.map" />
+  </component>
+</project>
