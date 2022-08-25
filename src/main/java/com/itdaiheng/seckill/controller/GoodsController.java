@@ -128,11 +128,15 @@ public class GoodsController {
             valueOperations.set("goodsDetail:" + goodsId, html, 60, TimeUnit.SECONDS);
         }
         return html;
-        // return "goodsDetail";
+         //return "goodsDetail";
     }
+
+
+
+
     @RequestMapping("/detail/{goodsId}")
     @ResponseBody
-    public RespBean toDetail(User user, @PathVariable Long goodsId) {
+    public RespBean toDetail(Model model,User user, @PathVariable Long goodsId) {
         GoodsVo goodsVo = goodsService.findGoodsVoByGoodsId(goodsId);
         Date startDate = goodsVo.getStartDate();
         Date endDate = goodsVo.getEndDate();

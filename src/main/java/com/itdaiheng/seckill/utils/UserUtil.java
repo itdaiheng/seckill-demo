@@ -23,36 +23,36 @@ import java.util.List;
 public class UserUtil {
 	private static void createUser(int count) throws Exception {
 		List<User> users = new ArrayList<>(count);
-//		//生成用户
-//		for (int i = 0; i < count; i++) {
-//			User user = new User();
-//			user.setId(13000000000L + i);
-//			user.setLoginCount(1);
-//			user.setNickname("user" + i);
-//			user.setRegisterDate(new Date());
-//			user.setSalt("1a2b3c");
-//			user.setPassword(MD5Util.inputPassToDBPass("123456", user.getSalt()));
-//			users.add(user);
-//		}
-//		System.out.println("create user");
+		//生成用户
+		for (int i = 0; i < count; i++) {
+			User user = new User();
+			user.setId(13000000000L + i);
+			user.setLoginCount(1);
+			user.setNickname("user" + i);
+			user.setRegisterDate(new Date());
+			user.setSalt("1a2b3c");
+			user.setPassword(MD5Util.inputPassToDBPass("123456", user.getSalt()));
+			users.add(user);
+		}
+		System.out.println("create user");
 		 // //插入数据库
-		 Connection conn = getConn();
-		 String sql = "insert into t_user(login_count, nickname, register_date, salt, password, id)values(?,?,?,?,?,?)";
-		 PreparedStatement pstmt = conn.prepareStatement(sql);
-		 for (int i = 0; i < users.size(); i++) {
-		 	User user = users.get(i);
-		 	pstmt.setInt(1, user.getLoginCount());
-		 	pstmt.setString(2, user.getNickname());
-		 	pstmt.setTimestamp(3, new Timestamp(user.getRegisterDate().getTime()));
-		 	pstmt.setString(4, user.getSalt());
-		 	pstmt.setString(5, user.getPassword());
-		 	pstmt.setLong(6, user.getId());
-		 	pstmt.addBatch();
-		 }
-		 pstmt.executeBatch();
-		 pstmt.close();
-		 conn.close();
-		 System.out.println("insert to db");
+//		 Connection conn = getConn();
+//		 String sql = "insert into t_user(login_count, nickname, register_date, salt, password, id)values(?,?,?,?,?,?)";
+//		 PreparedStatement pstmt = conn.prepareStatement(sql);
+//		 for (int i = 0; i < users.size(); i++) {
+//		 	User user = users.get(i);
+//		 	pstmt.setInt(1, user.getLoginCount());
+//		 	pstmt.setString(2, user.getNickname());
+//		 	pstmt.setTimestamp(3, new Timestamp(user.getRegisterDate().getTime()));
+//		 	pstmt.setString(4, user.getSalt());
+//		 	pstmt.setString(5, user.getPassword());
+//		 	pstmt.setLong(6, user.getId());
+//		 	pstmt.addBatch();
+//		 }
+//		 pstmt.executeBatch();
+//		 pstmt.close();
+//		 conn.close();
+//		 System.out.println("insert to db");
 		//登录，生成userTicket
 		String urlString = "http://localhost:8080/login/doLogin";
 		File file = new File("C:\\Users\\Administrator\\Desktop\\config.txt");
