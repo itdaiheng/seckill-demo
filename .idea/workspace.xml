@@ -4,34 +4,32 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="288aafc8-8795-4954-aa6f-064cb5b3ac48" name="Default Changelist" comment=" 修改 页面 未能 静态化">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/RabbitMQConfigFanout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/RabbitMQDirectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/RabbitMQHeadersConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/RabbitMQTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/rabbitmq/MQReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/rabbitmq/MQSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/vo/OrderDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/goodsDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/orderDetail.html" afterDir="false" />
+    <list default="true" id="288aafc8-8795-4954-aa6f-064cb5b3ac48" name="Default Changelist" comment=" 初步完成 rabbitmq 已部署">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/AccessLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/AccessLimitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stock.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e0869d1-8590-43fb-ae21-ae61b70ddb3c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e0869d1-8590-43fb-ae21-ae61b70ddb3c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e0869d1-8590-43fb-ae21-ae61b70ddb3c/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e0869d1-8590-43fb-ae21-ae61b70ddb3c/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e0869d1-8590-43fb-ae21-ae61b70ddb3c/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/secKillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/controller/secKillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/ISeckillOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/ISeckillOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/impl/ISeckillOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/impl/ISeckillOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/utils/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/utils/UserUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/goodsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/goodsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/goodsDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/goodsDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itdaiheng/seckill/SeckillApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itdaiheng/seckill/SeckillApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
         <option value="Interface" />
         <option value="HTTP Public Environment File" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -60,6 +59,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\Desktop\seckill\seckill-master\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,25 +90,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/itdaiheng/seckill/config" />
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itdaiheng.seckill.config" />
       <recent name="com.itdaiheng.seckill.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\utils" />
       <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\config" />
-      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\vo" />
       <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\resources\static" />
-      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\utils" />
+      <recent name="C:\Users\Administrator\Desktop\seckill\seckill-master\src\main\java\com\itdaiheng\seckill\vo" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SeckillApplication">
@@ -119,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="运行单个请求">
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2">
       <method v="2" />
     </configuration>
     <configuration name="SeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -132,7 +142,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.UserUtil" />
-        <item itemvalue="HTTP 请求.generated-requests | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +187,10 @@
       <workItem from="1661307771879" duration="216000" />
       <workItem from="1661308041468" duration="1302000" />
       <workItem from="1661326662319" duration="8792000" />
+      <workItem from="1661393748718" duration="142000" />
+      <workItem from="1661393925618" duration="3067000" />
+      <workItem from="1661397134492" duration="8050000" />
+      <workItem from="1661418024411" duration="9964000" />
     </task>
     <task id="LOCAL-00001" summary=" 修改 页面 未能 静态化">
       <created>1661000460205</created>
@@ -186,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661000460205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" 初步完成 rabbitmq 已部署">
+      <created>1661393850487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661393850487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +217,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" 修改 页面 未能 静态化" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 修改 页面 未能 静态化" />
+    <MESSAGE value=" 初步完成 rabbitmq 已部署" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 初步完成 rabbitmq 已部署" />
   </component>
 </project>

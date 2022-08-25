@@ -5,7 +5,6 @@ import com.itdaiheng.seckill.pojo.Order;
 import com.itdaiheng.seckill.pojo.User;
 import com.itdaiheng.seckill.vo.GoodsVo;
 import com.itdaiheng.seckill.vo.OrderDetailVo;
-import org.springframework.stereotype.Service;
 
 
 /**
@@ -23,5 +22,23 @@ public interface IOrderService extends IService<Order> {
  */
 
     OrderDetailVo detail(Long orderId);
+
+    String createPath(User user, Long goodsId);
+
+    /**
+     * @Description:校验秒杀地址
+     * @Author itdaiheng
+     * @Date 2022/8/25 17:40
+     */
+
+    boolean checkPath(User user, Long goodsId, String path);
+    /**
+     * @Description: 校验验证码
+     * @Author itdaiheng
+     * @Date 2022/8/25 19:11
+     * @return
+     */
+
+    boolean checkCaptcha(User user, Long goodsId, String captcha);
 
 }
